@@ -25,7 +25,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/three/build/three.js",
+              "node_modules/three-mtl-loader/index.js",
+              "node_modules/three-obj-loader/dist/index.js",
+              "node_modules/three-orbitcontrols/OrbitControls.js"
+            ]
           },
           "configurations": {
             "production": {
